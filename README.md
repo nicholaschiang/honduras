@@ -31,3 +31,8 @@ exception of [Tutorbook](https://github.com/nicholaschiang/tutorbook) that uses
 
 Everything in the `src/` directory is webpacked into the three files in `build/`
 that are then served via [Netlify](https://netlify.com) on repository push.
+
+## Acknowledgements
+
+Credit for the original timeline template goes to knyttneve's
+[CodePen](https://codepen.io/knyttneve/pen/bgvmma).
