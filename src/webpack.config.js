@@ -34,10 +34,10 @@ module.exports = [{
             'bundle.min.css': [
                 // SCSS files contain imports that regard that section of the app 
                 // Main.scss contains imports that appear in multiple sections
-                path.resolve(__dirname, 'styles/main.scss'),
+                path.resolve(__dirname, 'styles/style.scss'),
 
                 // All other styling files are contained as CSS files
-                path.resolve(__dirname, 'styles/preloader.css'),
+                path.resolve(__dirname, 'styles/style.css'),
             ]
         },
         output: {
@@ -87,7 +87,7 @@ module.exports = [{
     {
         entry: {
             'bundle.min.js': [
-                path.resolve(__dirname, 'scripts/main.js'),
+                path.resolve(__dirname, 'scripts/index.js'),
             ]
         },
         output: {
@@ -106,5 +106,5 @@ module.exports = [{
             }]
         },
         watch: true,
-    }
+    },
 ];
